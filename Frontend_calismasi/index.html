@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Frontend Developer Değerlendirme Çalışması</title>
+</head>
+<body>
+<!--Header Start-->
+<!--row1 Start-->
+<!--car icon and phone-->
+<div class="row" id="responsive" >
+    <nav class="navbar navbar-expand-sm  bg-lightgrey navbar-light col-3 mt-3 mb-0 d-none d-sm-block 	d-sm-none d-md-block" id="phone">
+        <div class="container-fluid ms-0 ps-0" style="display: flex;">
+                <a class="navbar-brand" href="#"><img src="images/car.png" alt="Logo" width="25" height="25" class="d-inline-block align-text-top" > FREE Express Shipping On Orders $99+</a>
+        </div>
+    </nav>
+<!--register-->
+<nav class="navbar navbar-expand-lg  col-9 d-flex flex-row-reverse mb-0 d-none d-sm-block " id="register">
+  <div class="container-fluid fs-5 " >
+    <div class="collapse navbar-collapse d-flex flex-row-reverse me-0 "  id="navbarNavDropdown">
+      <ul class="navbar-nav ">
+        <li class="nav-item dropdown pe-5">
+          <a class="nav-link dropdown-toggle a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            USD
+          </a>
+          <ul class="dropdown-menu ">
+            <li><a class="dropdown-item" href="#">Euro</a></li>
+            <li><a class="dropdown-item" href="#">Won</a></li>
+            <li><a class="dropdown-item" href="#">TL</a></li>
+          </ul>
+        </li>
+        <li class="nav-item pe-5">
+          <a class="nav-link dropdown-toggle a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/united-states.png" alt="Language" width="20" height="20" >
+            Eng
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Korean</a></li>
+            <li><a class="dropdown-item" href="#">Turkish</a></li>
+            <li><a class="dropdown-item" href="#">French</a></li>
+          </ul>
+        </li>
+        <li class="nav-item pe-5 d-none d-sm-block d-sm-none d-md-block">
+          <a class="nav-link " aria-current="page" href="#">My Account</a>
+        </li>
+        <li class="nav-item pe-5 d-none d-sm-block d-sm-none d-md-block">
+          <a class="nav-link" href="#">Card</a>
+        </li>
+        <li class="nav-item pe-5 d-none d-sm-block d-sm-none d-md-block">
+          <a class="nav-link" href="#">Log In</a>
+        </li>
+        <!--Social Media-->
+        </li>
+        <li class="nav-item pe-5">
+          <a class="nav-link" href="https://tr-tr.facebook.com/"><img src="images/facebook-app-symbol.png" alt="facebook" width="15" height="15"></a>
+        </li>
+        </li>
+        <li class="nav-item pe-5">
+          <a class="nav-link" href="https://twitter.com/login?lang=tr"><img src="images/twitter.png" alt="twitter" width="15" height="15"></a>
+        </li>
+        </li>
+        <li class="nav-item pe-5">
+          <a class="nav-link" href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram" width="15" height="15"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+<!--responsive hali-->
+<div class="row" id="responsive" >
+    <nav class="navbar navbar-expand  bg-lightgrey navbar-light  mb-0 d-block d-sm-none " id="phone">
+    </nav>
+<nav class="navbar navbar-expand   mb-0 d-flex justify-content-evenly d-block d-sm-none" id="register">
+  <div class="container-fluid fs-5 " >
+    <div class="collapse navbar-collapse d-flex flex-row-reverse me-0 "  id="navbarNavDropdown">
+      <ul class="navbar-nav ">
+        <li class="nav-item dropdown pe-5">
+          <a class="nav-link dropdown-toggle a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            USD
+          </a>
+          <ul class="dropdown-menu ">
+            <li><a class="dropdown-item" href="#">Euro</a></li>
+            <li><a class="dropdown-item" href="#">Won</a></li>
+            <li><a class="dropdown-item" href="#">TL</a></li>
+          </ul>
+        </li>
+        <li class="nav-item pe-5">
+          <a class="nav-link dropdown-toggle a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/united-states.png" alt="Language" width="20" height="20" >
+            Eng
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Korean</a></li>
+            <li><a class="dropdown-item" href="#">Turkish</a></li>
+            <li><a class="dropdown-item" href="#">French</a></li>
+          </ul>
+        </li>
+        <li class="nav-item pe-5 d-none d-sm-block d-sm-none d-md-block">
+          <a class="nav-link " aria-current="page" href="#">My Account</a>
+        </li>
+        <li class="nav-item pe-5 d-none d-sm-block d-sm-none d-md-block">
+          <a class="nav-link" href="#">Card</a>
+        </li>
+        <li class="nav-item pe-5 d-none d-sm-block d-sm-none d-md-block">
+          <a class="nav-link" href="#">Log In</a>
+        </li>
+        <!--Social Media-->
+        </li>
+        <li class="nav-item pe-5">
+          <a class="nav-link" href="https://tr-tr.facebook.com/"><img src="images/facebook-app-symbol.png" alt="facebook" width="15" height="15"></a>
+        </li>
+        </li>
+        <li class="nav-item pe-5">
+          <a class="nav-link" href="https://twitter.com/login?lang=tr"><img src="images/twitter.png" alt="twitter" width="15" height="15"></a>
+        </li>
+        </li>
+        <li class="nav-item pe-5">
+          <a class="nav-link" href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram" width="15" height="15"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+<!--row1 end-->
+<!--row2 Start-->
+<!--marka-->
+<!--responsive hambuger menü start-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+
+    <!-- Example Code -->
+    
+    <nav class="navbar navbar-dark bg-dark fixed-top d-block d-sm-none  d-md-none">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  CATEGORIES
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PRODUCTS
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              PAGES
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">SPECIAL OFFER</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">BUY PORTO</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="#">MY ACCOUNT</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">CONTACT US</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">BLOG</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">MY WISHLIST</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">CART</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">LOG IN</a>
+</li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+<!--responsive hamburger menü end-->
+<div class="row m-0 pt-0">
+    <nav class="navbar navbar-expand-sm bg-lightgrey col-1 ms-1 me-5 mt-0 mb-0" style="height:80px ; width: 80px;"  >
+        <div class="container-fluid ms-1 p-0 "  style="display: flex;" >
+                <a class="navbar-brand text-warning fs-3 fw-bold ms-1 w-100 h-100"  href="#"><img src="images/baby.png" alt="Logo" width="25" height="25" class="d-inline-block align-text-top " > Marka</a>
+        </div>
+    </nav>
+    <!--Search-->
+   <nav class="navbar bg-lightgrey col-7 mb-0 d-none d-sm-block d-sm-none d-md-block " style="margin-left: 7%; margin-right: 0%;">
+  <div class="container-fluid me-0" >
+    <form class="d-flex   me-0" role="search"  >
+      <input class="form-control table-borderless border border-end-0 border-primary border-2  fs-4" style="height:45px ; width: 600px; border-radius: 0%; border-right: none; margin: 0%;"  type="search" placeholder="Search.." aria-label="Search"/>
+      <div class="dropdown" style="margin:0%; ">
+  <a class="btn dropdown-toggle border-primary border border-start-0 border-2 " style="height:45px ;  border-radius: 0%; margin: 0%; font-size:medium;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    All Categoires
+  </a>
+
+  <ul class="dropdown-menu fs-5">
+    <li><a class="dropdown-item" href="#">Fashion</a></li>
+    <li><a class="dropdown-item" href="#">Games</a></li>
+    <li><a class="dropdown-item" href="#">Sport</a></li>
+  </ul>
+</div>
+      <button class="btn btn-outline-primary bg-primary bg-opacity-25 border border-start-0 border-primary border-2" type="submit" style="border-radius: 0;"><img src="images/search.png" alt="Logo" width="15" height="15"></button>
+    </form>
+  </div>
+</nav>
+<!--My account-->
+<nav class="navbar navbar-expand-sm bg-lightgrey col-2 ms-2 mb-0 d-none d-sm-block d-sm-none d-md-block" style="height:100px ; width: 100px;"  >
+        <div class="container-fluid ms-5 p-0 "  style="display: flex;" >
+                <a class="navbar-brand "  href="#"><img src="images/user.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top " ></a>
+                <a class="navbar-brand "  href="#"> Welcome <br> <p class="fs-4 fw-bold">My Acount</p></a>
+        </div>
+    </nav>
+<!--like and shopping-->
+<nav class="navbar navbar-expand-sm bg-lightgrey col-2  mb-0 " style="height:100px ; width: 100px; margin-left: 70px;"  >
+        <div class="container-fluid ms-1 p-0 "  style="display: flex;" >
+                <a class="navbar-brand ms-1 "  href="#"><img src="images/heart.png" alt="Logo" width="25" height="25" class="d-inline-block align-text-top  me-4" > <img src="images/shopping-bag.png" alt="Logo" width="25" height="25" class="d-inline-block align-text-top " > </a>
+        </div>
+    </nav>
+<!--row2 end-->
+<!--row3 Start-->
+<div class="row">
+    <div class="col-2">
+        <div class="btn-group dropend d-none d-sm-block d-sm-none d-md-block" style="height:auto;">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/hamburger.png" alt="Logo" width="18" height="18">
+    ALL DEPARTMENTS
+  </button>
+  <ul class="dropdown-menu">
+    <div class="btn-group dropend">
+              <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <a href="#"><img src="images/dress.png" width="15" height="15">Fashion</a></button>
+              <ul class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              
+              <li>Top</li>
+              <li>Dresess</li>
+              <li>Shorts</li>
+              </ul>
+          </div>
+    <div class="btn-group dropend">
+              <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/plug.png" width="15" height="15">Electronics</button>
+              <ul class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              </ul>
+          </div>
+          <div class="btn-group dropend">
+              <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/gift-box.png" width="15" height="15">Gifts</button>
+              <ul class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              </ul>
+          </div>
+          <div class="btn-group dropend">
+              <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="images/lupine.png" width="15" height="15">Home</button>
+              <ul class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              </ul>
+          </div>
+          <div class="btn-group dropend">
+              <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/microphone-black-shape.png" width="15" height="15">Gaming</button>
+              <ul class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              </ul>
+          </div>
+          <div class="btn-group dropend">
+              <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="images/tennis.png" width="15" height="15">Sports</button>
+              <ul class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              </ul>
+          </div>
+  </ul>
+</div>
+    </div>
+    <!--middle links-->
+<div class="col-5">
+    <nav class="nav fs-3 fw-bold mt-3 ms-3 justify-content-between ">
+  <a class="nav-link text-dark active" aria-current="page" href="#">Home</a>
+  <a class="nav-link text-secondary" href="#">Shop</a>
+  <a class="nav-link text-secondary" href="#">Products</a>
+  <a class="nav-link text-secondary" href="#">Pages</a>
+  <a class="nav-link text-secondary" href="#">Buy Porto</a>
+</nav>
+</div>
+<div class="col-5">
+    <nav class="nav fs-4 fw-bold  mt-3 ms-0 float-end  ">
+        <a class="nav-link text-secondary" href="#">FLASH DEALS</a>
+        <a class="nav-link text-secondary" href="#">NEW ARRIVALS</a>
+        <a class="nav-link text-secondary" href="tel:1-234-"><img src="images/telephone.png" alt="Logo" width="15" height="15" >1-800-234-56-78</a>
+</nav>
+</div>
+</div>
+<!--row3 End-->
+<!--Header End-->
+<!--Body Start-->
+<!--row4 Start-->
+<!--carousel start-->
+<div class="container ">
+    <div class="row" id="carousel">
+<div class="col-10 "id="carousel2" >
+    <div id="carouselExampleCaptions" class="carousel slide m-4 " data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner ">
+    <div class="carousel-item active d-flex ">
+      <img src="images/oyun_sandalyesi.png "  class="d-block w-100 img" alt="..." >
+      <div class="carousel-caption  flex-column mb-3 d-flex flex-row mb-3">
+        <p class="fw-bold yazi " >TRENDY</p><p class="text-dark fw-bold yazi p-2"> GAMING CHAIRS</p>
+      </div>
+      <!--<div class="ms-0 ">
+        <p class="fw-bold">Porto Game Chair</p>
+        <div class="d-flex justify-content-center mb-0"><p>from</p><p class="text-decoration-line-through">$299.00</p></div>
+        <div class="d-flex justify-content-center mb-0"><p>to</p><p>$199.99</p></div>
+        <button><a href="#"></a>Shop Now</button>
+      </div>-->
+    </div>
+    <div class="carousel-item">
+      <img src="images/oyun_sandalyesi.png"  class="d-block w-100 img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/oyun_sandalyesi.png" class="d-block w-100 img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</div>
+<!--carousel end-->
+<!--row4 end-->
+<!--row5 start-->
+<div class="row d-flex justify-content-around" id="products">
+    <div class="col-1 cardbir ">
+        <div class="cardbir " >
+            <a href="#" class="text-decoration-none"><img src="images/trenckot.png" class="card-img-top rounded-circle cardimg " alt="...">
+                <div class="card-body text-dark ">
+                    <p class="card-text fw-bold"> Fashion</p>
+                    <p class="card-text"> 7 Products</p>
+                </div>
+            </a>
+                
+        </div>
+    </div>
+    <div class="col-1 cardbir ">
+        <div class="cardbir " >
+            <a href="#" class="text-decoration-none"><img src="images/berjer.png" class="card-img-top rounded-circle cardimg " alt="...">
+                <div class="card-body text-dark ">
+                    <p class="card-text fw-bold"> Furniture</p>
+                    <p class="card-text"> 1 Products</p>
+                </div>
+            </a>
+                
+        </div>
+    </div>
+    <div class="col-1 cardbir ">
+        <div class="cardbir " >
+            <a href="#" class="text-decoration-none"><img src="images/bezbol.png" class="card-img-top rounded-circle cardimg " alt="...">
+                <div class="card-body text-dark ">
+                    <p class="card-text fw-bold"> Sports</p>
+                    <p class="card-text"> 2 Products</p>
+                </div>
+            </a>
+                
+        </div>
+    </div>
+    <div class="col-1 cardbir ">
+        <div class="cardbir " >
+            <a href="#" class="text-decoration-none"><img src="images/oyun.png" class="card-img-top rounded-circle cardimg " alt="...">
+                <div class="card-body text-dark ">
+                    <p class="card-text fw-bold"> Toys</p>
+                    <p class="card-text"> 2 Products</p>
+                </div>
+            </a>
+                
+        </div>
+    </div>
+    <div class="col-1 cardbir ">
+        <div class="cardbir " >
+            <a href="#" class="text-decoration-none"><img src="images/camera2.png" class="card-img-top rounded-circle cardimg " alt="...">
+                <div class="card-body text-dark ">
+                    <p class="card-text fw-bold"> Cameras</p>
+                    <p class="card-text"> 1 Products</p>
+                </div>
+            </a>
+                
+        </div>
+    </div>
+    <div class="col-1 cardbir ">
+        <div class="cardbir " >
+            <a href="#" class="text-decoration-none"><img src="images/ps7.png" class="card-img-top rounded-circle cardimg " alt="...">
+                <div class="card-body text-dark ">
+                    <p class="card-text fw-bold">Gaming</p>
+                    <p class="card-text"> 1 Products</p>
+                </div>
+            </a>
+                
+        </div>
+    </div>
+    <div class="col-1 cardbir ">
+        <div class="cardbir " >
+            <a href="#" class="text-decoration-none"><img src="images/head_phones.png" class="card-img-top rounded-circle cardimg " alt="...">
+                <div class="card-body text-dark ">
+                    <p class="card-text fw-bold"> Headphones</p>
+                    <p class="card-text">1 Products</p>
+                </div>
+            </a>
+                
+        </div>
+    </div>
+    <div class="col-1 cardbir ">
+        <div class="cardbir " >
+            <a href="#" class="text-decoration-none"><img src="images/smartpones.png" class="card-img-top rounded-circle cardimg " alt="...">
+                <div class="card-body text-dark ">
+                    <p class="card-text fw-bold">Smartphones</p>
+                    <p class="card-text"> 1 Products</p>
+                </div>
+            </a>
+                
+        </div>
+    </div>
+</div>
+<!--row5 end-->
+</div>
+<!--Special Offers start-->
+<div id="text"><img src="images/discount.png"><p>Special Offers</p></div>
+<!--Special Offers end-->
+<!--middlepart start-->
+<div class="container">
+  <div class="row">
+  <!--leftside start-->
+  <div class="col-4 border border-primary border-3 ms-4"id="leftside">
+    <div class="bg-secondary rounded-pill ms-5 mt-3" id="ustyazi" style="width:300px ; height: 50px;">
+        <p class="fs-5">OFFER ENDS IN:</p><P class="fw-bolder fs-4">-289 DAYS 0-8:0-57: 0-47</P>
+      </div>
+      <img src="images/drone.png" style="height: 300px; width: 300px;" class="ms-5">
+      <div class="ms-5">
+        <p class="opacity-50">ACTIONS CAMERAS, CAMERA DRONES, DIGITAL CAMERAS, TOYS</p>
+        <h4 style="margin-left:100px ;">Drone Pro One</h4>
+        <img src="images/rating.png" style="height: 40px; width: 50px; margin-left:130px ;" class="">
+        <div><p style="margin-left:135px ; " class="text-decoration-line-through ">$499.00 </p>
+          <p style="margin-left:135px; ">299.00</p>
+        </div>
+        <button style="margin-left:90px ;  border-radius: 5%; color: white; " class="bg-primary border-primary"><a><img src="images/shopping-bag.png" style="height: 30px; width: 30px;" class="">ADD TO CARD</a></button>
+      </div>
+    </div>
+  <!--leftside end-->
+  <!--rightsidefirst-->
+  <!--birinci-->
+  <div class="col-2 sagtaraf" >
+    <div class="border border-secondary p-2 border-opacity-25" style="width:200px; height: 300px;">
+      <img src="images/chair.png" style="height: 150px; width: 150px;" class="ms-5">
+        <div class="ms-5">
+          <div class="d-flex justify-content-between mb-0"><p class="opacity-50 ">FURNITURE,HOME ACCESSORIES</p>
+            <img src="images/heart.png" style="height: 15px; width: 15px;" class="">
+          </div>
+          <h4 style="margin-left:0px ;">Wooden Chair</h4>
+          <img src="images/rating.png" style="height: 40px; width: 50px; margin-left:0px ;" class="">
+          <h4 class="text-secondary fw-bold mt" style="margin-left:0px ;">$88.00</h4>
+        </div>
+    </div>
+    <!--ikinci-->
+    <div  class="border border-secondary p-2 border-opacity-25" style="width:200px; height: 300px;">
+      <img src="images/koltuk.png" style="height: 150px; width: 150px;" class="ms-5">
+        <div class="ms-5">
+          <div class="d-flex justify-content-between mb-0"><p class="opacity-50 ">FURNITURE,HOME ACCESSORIES</p>
+            <img src="images/heart.png" style="height: 15px; width: 15px;" class="">
+          </div>
+          <h4 style="margin-left:0px ;">Brown Arm Chair</h4>
+          <img src="images/rating.png" style="height: 40px; width: 50px; margin-left:0px ;" class="">
+          <h4 class="text-secondary fw-bold mt" style="margin-left:0px ;">$99.00-$2820.00</h4>
+        </div>
+    </div>
+  </div>
+<!--rightsidesecond-->
+<!--birinci-->
+  <div class="col-2 sagtaraf" >
+    <div class="border border-secondary p-2 border-opacity-25" style="width:200px; height: 300px;" >
+      <img src="images/head_phones.png" style="height: 150px; width: 150px;" class="ms-5">
+        <div class="ms-5">
+          <div class="d-flex justify-content-between mb-0"><p class="opacity-50 ">AUDIO AMPLIFIER...</p>
+            <img src="images/heart.png" style="height: 15px; width: 15px;" class="">
+          </div>
+          <h4 style="margin-left:0px ;">BEATS SOLO HD Drenched..</h4>
+          <img src="images/rating.png" style="height: 40px; width: 50px; margin-left:0px ;" class="">
+          <h4 class="text-secondary fw-bold mt" style="margin-left:0px ;">$88.00</h4>
+        </div>
+    </div>
+    <!--ikinci-->
+    <div  class="border border-secondary p-2 border-opacity-25" style="width:200px; height: 300px;">
+      <img src="images/indir.png" style="height: 150px; width: 150px;" class="ms-5">
+        <div class="ms-5">
+          <div class="d-flex justify-content-between mb-0"><p class="opacity-50 ">ACCESSORIES, FASION...</p>
+            <img src="images/heart.png" style="height: 15px; width: 15px;" class="">
+          </div>
+          <h4 style="margin-left:0px ;">Brown Belt</h4>
+          <img src="images/rating.png" style="height: 40px; width: 50px; margin-left:0px ;" class="">
+          <h4 class="text-secondary fw-bold mt" style="margin-left:0px ;">$39.00</h4>
+        </div>
+    </div>
+  </div>
+<!--rightsidethird-->
+<!--birinci-->
+  <div class="col-2 sagtaraf" >
+    <div class="border border-secondary p-2 border-opacity-25" style="width:200px; height: 300px;">
+      <img src="images/anahtarlık.png" style="height: 150px; width: 150px;" class="ms-5">
+        <div class="ms-5">
+          <div class="d-flex justify-content-between mb-0"><p class="opacity-50 ">BIRTHDAY FOR HIM..</p>
+            <img src="images/heart.png" style="height: 15px; width: 15px;" class="">
+          </div>
+          <h4 style="margin-left:0px ;">Belt Accessories</h4>
+          <img src="images/rating.png" style="height: 40px; width: 50px; margin-left:0px ;" class="">
+          <h4 class="text-secondary fw-bold mt" style="margin-left:0px ;">$19.00</h4>
+        </div>
+    </div>
+    <!--ikinci-->
+    <div  class="border border-secondary p-2 border-opacity-25" style="width:200px; height: 300px;">
+      <img src="images/camera2.png" style="height: 150px; width: 150px;" class="ms-5">
+        <div class="ms-5">
+          <div class="d-flex justify-content-between mb-0"><p class="opacity-50 ">CAMCORDERS, CAMERAS/p>
+            <img src="images/heart.png" style="height: 15px; width: 15px;" class="">
+          </div>
+          <h4 style="margin-left:0px ;">Camera Two</h4>
+          <img src="images/rating.png" style="height: 40px; width: 50px; margin-left:0px ;" class="">
+          <h4 class="text-secondary fw-bold mt" style="margin-left:0px ;">$119.00</h4>
+        </div>
+    </div>
+  </div>
+<!--rightsidefourth-->
+<!--birinci-->
+  <div class="col-2 sagtaraf" >
+    <div class="border border-secondary p-2 border-opacity-25" style="width:200px; height: 300px;">
+      <img src="images/canta.png" style="height: 150px; width: 150px;" class="ms-5">
+        <div class="ms-5">
+          <div class="d-flex justify-content-between mb-0">
+            <p class="opacity-50 ">ACCESSORIES, ACCESSORIES, FASION</p>
+            <img src="images/heart.png" style="height: 15px; width: 15px;" class="">
+          </div>
+          <h4 style="margin-left:0px ;">Black Bag</h4>
+          <img src="images/rating.png" style="height: 40px; width: 50px; margin-left:0px ;" class="">
+          <h4 class="text-secondary fw-bold mt" style="margin-left:0px ;">$108.00</h4>
+        </div>
+    </div>
+    <!--ikinci-->
+    <div  class="border border-secondary p-2 border-opacity-25">
+      <img src="images/bardak.png" style="height: 150px; width: 150px;" class="ms-5">
+        <div class="ms-5">
+          <div class="d-flex justify-content-between mb-0"><p class="opacity-50 ">HOME ACCESSORIES, LIGHTING</p>
+            <img src="images/heart.png" style="height: 15px; width: 15px;" class="">
+          </div>
+          <h4 style="margin-left:0px ;">Coffee Cup</h4>
+          <img src="images/rating.png" style="height: 40px; width: 50px; margin-left:0px ;" class="">
+          <h4 class="text-secondary fw-bold mt" style="margin-left:0px ;">$59.00</h4>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--middlepart end-->
+<!--contect start-->
+<div class="container">
+  <div class="row">
+    <div class="col-4 ms-3 mt-3 d-flex justify-content-between">
+      <img src="images/mail.png" style="height: 30px; width: 30px;" >
+      <div style="width:400px ;">
+        <h2 class="fw-bold">Subscribe To Our Newsletter</h2>
+        <p class="opacity-50 text-secondary fs-4">Get all the lastest information on Events, Sales and Offers.</p>
+      </div>
+    </div>
+    <div class="col-6 mt-3">
+      <nav class="navbar bg-light" >
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" style="width:700px; height: 50px;" type="search" placeholder="Your Email Adress" aria-label="Search">
+            <button class="btn bg-primary border-primary text-light fw-bold" type="submit">SUBSCRIBE NOW!</button>
+          </form>
+       </div>
+     </nav>
+    </div>
+  </div>
+</div>
+<!--contect end-->
+<hr>
+<!--Body end-->
+<!--Footer Start-->
+<div class="container">
+  <div class="row d-flex justify-content-between">
+    <div class="col-2">
+      <h2>CUSTOMER SERVICE</h2>
+      <div >
+        <ul>
+          <p><a class="text-secondary text-opacity-75 fs-5"href="#">Order Tracking</a></p>
+          <p><a class="text-secondary text-opacity-75 fs-5" href="#">Help & FAQs</a></p>
+          <p><a class="text-secondary text-opacity-75 fs-5"href="#">Shipping & Delivery</a></p>
+          <p><a class="text-secondary text-opacity-75 fs-5"href="#">Orders History</a></p>
+          <p><a class="text-secondary text-opacity-75 fs-5"href="#">Advanced Search</a></p>
+          <p><a class="text-secondary text-opacity-75 fs-5"href="#">Login</a></p>
+        </ul>
+      </div>
+    </div>
+    <div class="col-2">
+      <h2>ABOUT US</h2>
+      <div class="text-secondary text-opacity-75 fs-5">
+        <ul>
+        <p><a class="text-secondary text-opacity-75 fs-5"href="#">About Us</a></p>
+        <p><a class="text-secondary text-opacity-75 fs-5"href="#">Out Stores</a></p>
+        <p><a class="text-secondary text-opacity-75 fs-5"href="#">Corprate Sales</a></p>
+        <p><a class="text-secondary text-opacity-75 fs-5"href="#">Careers</a></p>
+        </ul>
+      </div>
+    </div>
+    <div class="col-2">
+      <h2>MORE INFORMATİON</h2>
+      <div class="text-secondary text-opacity-75 fs-5">
+        <p><a class="text-secondary text-opacity-75 fs-5"href="#">Affiliates</a></p>
+        <p><a class="text-secondary text-opacity-75 fs-5"href="#">Refer a Friend</a></p>
+        <p><a class="text-secondary text-opacity-75 fs-5"href="#">Student Beans Offers</a></p>
+        <p><a class="text-secondary text-opacity-75 fs-5"href="#">Gift Vouchers</a></p>
+      </div>
+    </div>
+    <div class="col-2">
+      <h2 class="ms-5 mb-3">SOCIAL MEDIA</h2>
+      <ul class="d-flex justify-content-between">
+        <p class="nav-item pe-5">
+          <a class="nav-link" href="https://tr-tr.facebook.com/"><img src="images/facebook-app-symbol.png" alt="facebook" width="15" height="15"></a>
+        </p>
+        
+        <p class="nav-item pe-5">
+          <a class="nav-link" href="https://twitter.com/login?lang=tr"><img src="images/twitter.png" alt="twitter" width="15" height="15"></a>
+        </p>
+        
+        <p class="nav-item pe-5">
+          <a class="nav-link" href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram" width="15" height="15"></a>
+        </p>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--Footer End-->
+
+
+<!-- Scrollable modal -->
+
+<!--<div class="modal-dialog modal-dialog-scrollable">
+  <h3>SUBSCRIBE TO NEWSLETTER</h3>
+  <P>Subscribe to thePorto mailing list to receive update updates<br>on new arrivals, special offer and our promotions.</P>
+  <form>
+    <input placeholder="Your email address">
+    <button><a href="#"></a>SUBMIT</button>
+    <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Dont show this popup again
+  </label>
+</div>
+  </form>
+</!--div>-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+
+    /*let select = document.getElementById("select");
+    let list = document.getElementById("list");
+    let selectText = document.getElementById("selectText");
+    let inputfield = document.getElementById("inputfield");
+    let options = document.getElementsByClassName("options");
+    select.onclick = function(){
+        list.classList.toggle("open");
+    }
+    for(option of options){
+        option.onclick =function(){
+            selectText.innerHTML =this.innerHTML;
+            inputfield.placeholder = "Search In " + selectText.innerHTML
+        }
+    }*/
+</script>
+</body>
+</html>
